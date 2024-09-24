@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "JSM-Jobs-Portal",
-    "slug": "JSM-Jobs-Portal",
+    "slug": "jsm-jobs-portal",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pvsaiganesh.jsmjobsportal"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pvsaiganesh.jsmjobsportal"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ab56eb7c-8598-4350-a87d-9e517e595f4e"
+      }
+    },
+    "owner": "pvsaiganesh"
   }
 }
